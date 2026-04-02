@@ -233,7 +233,7 @@ export class CanvasComponent implements AfterViewInit {
         if (!nodeType) return console.log('No nodeType received');
 
         // check GraphService
-        // const node = this.graph.addNode(nodeType, event.clientX, event.clientY);
+        this.graph.addNode(nodeType, event.clientX, event.clientY);
     }
 
     @HostListener('dragover', ['$event'])
