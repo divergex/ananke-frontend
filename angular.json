@@ -21,7 +21,7 @@
                         "server": "src/main.server.ts",
                         "outputMode": "server",
                         "security": {
-                            "allowedHosts": ["*"]
+                            "allowedHosts": ["ananke.divergex.org", "betasigma.divergex.org"]
                         },
                         "ssr": { "entry": "src/server.ts", "experimentalPlatform": "neutral" },
                         "outputPath": "dist"
